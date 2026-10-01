@@ -1,0 +1,27 @@
+[project]
+name = "docintel"
+version = "0.1.0"
+description = "RAG over enterprise documents: cited Q&A, requirement extraction, and evaluation."
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "python-multipart>=0.0.9",
+    "pypdf>=5.0",
+    "openai>=1.50",
+    "qdrant-client>=1.12",
+    "pydantic-settings>=2.4",
+    "pymupdf>=1.28.2",
+    "openpyxl>=3.1.5",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "httpx>=0.27",
+    "fpdf2>=2.7",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

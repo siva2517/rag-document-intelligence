@@ -1,0 +1,11 @@
+{"question": "How long is the initial term of the agreement?", "expected_pages": [1], "reference": "Three years."}
+{"question": "How much notice is needed to prevent automatic renewal?", "expected_pages": [1], "reference": "Ninety days written notice."}
+{"question": "What monthly availability must the provider maintain?", "expected_pages": [2], "reference": "99.9% monthly availability for production."}
+{"question": "How quickly must Severity 1 incidents be acknowledged?", "expected_pages": [2], "reference": "Within 15 minutes."}
+{"question": "What is the maximum service credit?", "expected_pages": [2], "reference": "50% of the monthly fee."}
+{"question": "When is the monthly service report due?", "expected_pages": [2], "reference": "By the fifth business day of each month."}
+{"question": "What encryption is required for data at rest?", "expected_pages": [3], "reference": "AES-256."}
+{"question": "Within what time must a security breach be reported?", "expected_pages": [3], "reference": "Within 24 hours of discovery."}
+{"question": "Where may customer data be stored?", "expected_pages": [3], "reference": "Only in data centers in the European Union."}
+{"question": "What are the payment terms for invoices?", "expected_pages": [3], "reference": "Payable within 30 days of receipt; late payments may accrue 1% interest per month."}
+{"question": "What is the provider's parental leave policy?", "expected_pages": [], "reference": "Not stated in the documents."}

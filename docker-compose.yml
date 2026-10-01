@@ -1,0 +1,23 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports: ["6333:6333"]
+    volumes: [qdrant_data:/qdrant/storage]
+
+  backend:
+    build: ./backend
+    env_file: .env
+    environment:
+      QDRANT_URL: http://qdrant:6333
+    depends_on: [qdrant]
+    ports: ["8000:8000"]
+    volumes: [artifacts:/app/data]
+
+  frontend:
+    build: ./frontend
+    depends_on: [backend]
+    ports: ["8080:80"]
+
+volumes:
+  qdrant_data:
+  artifacts:

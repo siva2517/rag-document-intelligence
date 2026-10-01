@@ -1,0 +1,16 @@
+ID,Section,Requirement
+GT-01,2. Term,Either party must give ninety (90) days written notice to prevent automatic renewal.
+GT-02,3. Services,"The Provider shall host and operate the Customer's shipment tracking platform, including the web portal, public API, and nightly data exports."
+GT-03,4. Availability,"The Provider shall maintain 99.9% monthly availability for the production environment, excluding scheduled maintenance announced 72 hours in advance."
+GT-04,5. Incident Response,Severity 1 incidents must be acknowledged within 15 minutes.
+GT-05,5. Incident Response,Severity 1 incidents must be resolved or mitigated within 4 hours.
+GT-06,5. Incident Response,Severity 2 incidents must be acknowledged within 1 hour.
+GT-07,6. Service Credits,"If availability falls below 99.9%, the Customer is entitled to a credit of 10% of the monthly fee for each full 0.5% below the target, capped at 50%."
+GT-08,7. Reporting,"The Provider shall deliver a monthly service report by the fifth business day of each month covering availability, incidents, and open change requests."
+GT-09,8. Encryption,All Customer data must be encrypted at rest using AES-256.
+GT-10,8. Encryption,All Customer data must be encrypted in transit using TLS 1.2 or higher.
+GT-11,9. Breach Notification,The Provider shall notify the Customer of any confirmed security breach affecting Customer data within 24 hours of discovery.
+GT-12,10. Data Residency,Customer data shall be stored only in data centers located in the European Union.
+GT-13,11. Fees and Invoicing,Invoices are payable within thirty (30) days of receipt.
+GT-14,11. Fees and Invoicing,Late payments may accrue interest of 1% per month.
+GT-15,12. Termination,Either party may terminate for material breach if the breach is not cured within thirty (30) days of written notice.
