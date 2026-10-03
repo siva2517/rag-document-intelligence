@@ -46,7 +46,7 @@ def create_app(
         app.state.artifacts = ArtifactStore(data_dir or settings.data_dir)
         yield
 
-    app = FastAPI(title="Enterprise RAG Document Intelligence", lifespan=lifespan)
+    app = FastAPI(title="RAG Document Intelligence", lifespan=lifespan)
 
     def require(doc_id: str, name: str, hint: str):
         data = app.state.artifacts.load_json(doc_id, name)

@@ -1,6 +1,6 @@
-# Enterprise RAG Document Intelligence
+# RAG Document Intelligence
 
-[![CI](https://github.com/siva2517/enterprise-rag-document-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/siva2517/enterprise-rag-document-intelligence/actions/workflows/ci.yml)
+[![CI](https://github.com/siva2517/rag-document-intelligence/actions/workflows/ci.yml/badge.svg)](https://github.com/siva2517/rag-document-intelligence/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.11%2B-3776AB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688)
 ![Qdrant](https://img.shields.io/badge/vector%20DB-Qdrant-DC244C)
@@ -218,8 +218,8 @@ GitHub Actions runs the backend test suite and the frontend type-check and build
 ### Run with Docker (recommended)
 
 ```bash
-git clone https://github.com/siva2517/enterprise-rag-document-intelligence.git
-cd enterprise-rag-document-intelligence
+git clone https://github.com/siva2517/rag-document-intelligence.git
+cd rag-document-intelligence
 cp .env.example .env            # set OPENAI_API_KEY
 docker compose up --build
 ```
